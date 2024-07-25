@@ -18,8 +18,8 @@ export function Header(){
                 Consultar
               </Link>
             </span>
+            <span>Alterar</span>
             <span>Relatórios</span>
-            <span>Ajuda</span>
           </div>
         </header>
       </div>

@@ -3,7 +3,7 @@ import './styles.css';
 
 export function CreateClient(){
   return (
-    <>
+    <div className="puff-in">
     <Helmet title="Clientes | Cadastro" />
     <div className="cadastro-container">
       <form className="cadastro-form">
@@ -59,6 +59,6 @@ export function CreateClient(){
       </form>
       <button type="submit" className="submit-button">Cadastrar</button>
     </div>
-    </>
+    </div>
   );
 }

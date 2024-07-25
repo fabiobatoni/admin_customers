@@ -30,7 +30,7 @@ export function SearchClient() {
   };
 
   return (
-    <>
+    <div className="puff-in">
     <Helmet title="Clientes | Consultar" />
     <div className="consulta-container">
       <input
@@ -53,6 +53,6 @@ export function SearchClient() {
         </div>
       )}
     </div>
-    </>
+    </div>
   );
 }
