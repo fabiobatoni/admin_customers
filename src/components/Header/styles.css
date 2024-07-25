@@ -42,6 +42,11 @@
   cursor: pointer;
 }
 
+.dos-menu span a {
+  color: inherit; 
+  text-decoration: none;
+}
+
 .dos-menu span:hover {
   color: black;
   text-decoration: underline;

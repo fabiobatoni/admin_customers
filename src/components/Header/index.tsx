@@ -7,7 +7,11 @@ export function Header(){
       <div className="dos-container">
         <header className="dos-header">
           <div className="dos-menu">
-            <span>Cadastrar</span>
+            <span>
+              <a href="/create">
+                Cadastrar
+              </a>
+            </span>
             <span>Consultar</span>
             <span>Relatórios</span>
             <span>Ajuda</span>
