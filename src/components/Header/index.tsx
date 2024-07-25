@@ -12,7 +12,11 @@ export function Header(){
                 Cadastrar
               </a>
             </span>
-            <span>Consultar</span>
+            <span>
+              <a href="/search">
+                Consultar
+              </a>
+            </span>
             <span>Relatórios</span>
             <span>Ajuda</span>
           </div>
