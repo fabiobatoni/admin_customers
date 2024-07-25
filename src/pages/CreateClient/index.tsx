@@ -1,7 +1,14 @@
 import { Helmet } from 'react-helmet-async';
 import './styles.css';
+import { toast } from 'sonner';
 
 export function CreateClient(){
+
+
+  function handleCreateClient() {
+    toast('Cliente cadastrado com sucesso')
+  }
+
   return (
     <div className="puff-in">
     <Helmet title="Clientes | Cadastro" />
@@ -57,7 +64,7 @@ export function CreateClient(){
           </div>
         </div>
       </form>
-      <button type="submit" className="submit-button">Cadastrar</button>
+      <button type="submit" className="submit-button" onClick={handleCreateClient}>Cadastrar</button>
     </div>
     </div>
   );
