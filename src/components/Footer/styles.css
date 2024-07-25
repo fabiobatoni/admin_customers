@@ -1,0 +1,11 @@
+.dos-footer {
+  text-align: center;
+  color: black;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  position: fixed;
+  font-weight: bold;
+  width: 100%;
+  bottom: 0;
+  text-transform: uppercase;
+}

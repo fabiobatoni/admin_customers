@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background-color: grey;
+  color: White;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.app-container {
+  border: 3px solid black;
+  border-style: ridge;
+  padding: 5px;
+  margin: 10px;
+  background-color: grey;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; 
+  padding-bottom: 50px;
+}
