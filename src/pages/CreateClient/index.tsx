@@ -1,7 +1,10 @@
+import { Helmet } from 'react-helmet-async';
 import './styles.css';
 
 export function CreateClient(){
   return (
+    <>
+    <Helmet title="Clientes | Cadastro" />
     <div className="cadastro-container">
       <form className="cadastro-form">
         <div className="full-width">
@@ -52,5 +55,6 @@ export function CreateClient(){
       </form>
       <button type="submit" className="submit-button">Cadastar</button>
     </div>
+    </>
   );
 }

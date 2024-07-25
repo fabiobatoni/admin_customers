@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './styles.css';
+import { Helmet } from 'react-helmet-async';
 
 interface ClienteInfo {
   nome: string;
@@ -29,6 +30,8 @@ export function SearchClient() {
   };
 
   return (
+    <>
+    <Helmet title="Clientes | Consultar" />
     <div className="consulta-container">
       <input
         type="text"
@@ -50,5 +53,6 @@ export function SearchClient() {
         </div>
       )}
     </div>
+    </>
   );
 }

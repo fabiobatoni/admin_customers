@@ -1,5 +1,10 @@
+import { Helmet } from "react-helmet-async";
+
 export function Home() {
   return(
-    <h1>Home</h1>
+    <>
+      <Helmet title="Clientes | Home" />
+      <h1>Home</h1>
+    </>
   )
 }
