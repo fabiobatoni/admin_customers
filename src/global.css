@@ -17,6 +17,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh; 
-  padding-bottom: 50px;
+  min-height: 88vh; 
+  padding-bottom: 72px;
 }

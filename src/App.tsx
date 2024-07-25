@@ -1,6 +1,8 @@
 import './global.css'
 import { Header } from './components/Header'
 import { Footer } from './components/Footer'
+import { Router } from './Router'
+import { BrowserRouter } from 'react-router-dom'
 
 export function App() {
 
@@ -9,7 +11,9 @@ export function App() {
       <div className="App">
         <Header />
         <main>
-          Teste 123
+          <BrowserRouter>
+            <Router />
+          </BrowserRouter>
         </main>
         <Footer />
       </div>
