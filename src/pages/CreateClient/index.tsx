@@ -23,16 +23,17 @@ export function CreateClient(){
             <label>Bairro:</label>
             <input type="text" name="bairro" />
 
-            <label>Naturalidade:</label>
-            <input type="text" name="naturalidade" />
+            <label>Cidade:</label>
+            <input type="text" name="cidade" />
 
-            <label>Nacionalidade:</label>
-            <input type="text" name="nacionalidade" />
+            <label>Estado:</label>
+            <input type="text" name="estado" />
+            
           </div>
 
           <div className="form-column">
-            <label>Cidade:</label>
-            <input type="text" name="cidade" />
+            <label>Naturalidade:</label>
+            <input type="text" name="naturalidade" />
 
             <label>Categoria:</label>
             <input type="text" name="categoria" />
@@ -42,18 +43,21 @@ export function CreateClient(){
           </div>
 
           <div className="form-column">
-            <label>Estado:</label>
-            <input type="text" name="estado" />
+            <label>Nacionalidade:</label>
+            <input type="text" name="nacionalidade" />
 
             <label>Telefone:</label>
             <input type="tel" name="telefone1" />
 
-            <label>Data pagamento:</label>
-            <input type="date" name="mespago" />
+            <label>Mês pagamento:</label>
+            <input type="number" name="mespago" />
+
+            <label>Ano pagamento:</label>
+            <input type="number" name="mespago" />
           </div>
         </div>
       </form>
-      <button type="submit" className="submit-button">Cadastar</button>
+      <button type="submit" className="submit-button">Cadastrar</button>
     </div>
     </>
   );
