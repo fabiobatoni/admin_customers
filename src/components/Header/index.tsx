@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 export function Header(){
@@ -8,14 +9,14 @@ export function Header(){
         <header className="dos-header">
           <div className="dos-menu">
             <span>
-              <a href="/create">
+              <Link to="/create">
                 Cadastrar
-              </a>
+              </Link>
             </span>
             <span>
-              <a href="/search">
+              <Link to="/search">
                 Consultar
-              </a>
+              </Link>
             </span>
             <span>Relatórios</span>
             <span>Ajuda</span>

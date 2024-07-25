@@ -9,17 +9,17 @@ export function App() {
 
   return (
     <HelmetProvider>
+      <BrowserRouter>
       <div className="app-container">
         <div className="App">
           <Header />
           <main>
-            <BrowserRouter>
-              <Router />
-            </BrowserRouter>
+            <Router />
           </main>
           <Footer />
         </div>
       </div>
+      </BrowserRouter>
     </HelmetProvider>
   )
 }
