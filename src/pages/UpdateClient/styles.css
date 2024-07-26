@@ -1,0 +1,95 @@
+.cadastro-container {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border: 2px solid white;
+  width: 80%;
+  height: auto; 
+  margin: auto;
+  margin-top: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+@keyframes puff-in-center {
+  0% {
+      transform: scale(0);
+      filter: blur(4px);
+      opacity: 0;
+  }
+  100% {
+      transform: scale(1);
+      filter: blur(0px);
+      opacity: 1;
+  }
+}
+
+.puff-in {
+  animation: puff-in-center 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+.cadastro-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.full-width {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.form-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  width: 32%; 
+}
+
+.cadastro-form label {
+  margin: 10px 0 5px;
+}
+
+.cadastro-form input,
+.cadastro-form textarea {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  font-family: 'Courier New', Courier, monospace; 
+}
+
+.cadastro-form input::placeholder,
+.cadastro-form textarea::placeholder {
+  color: grey; 
+  font-family: 'Arial', sans-serif; 
+}
+
+.submit-button {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  width: 150px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  align-self: center;
+  text-transform: uppercase;
+}
+
+.submit-button:hover {
+  background-color: gray;
+}
+

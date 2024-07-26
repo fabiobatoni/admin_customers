@@ -32,6 +32,13 @@
   border: none;
   cursor: pointer;
   font-family: 'Courier New', Courier, monospace;
+  gap: 2rem;
+  text-transform: uppercase;
+}
+
+.buscar-button a {
+  color: inherit; 
+  text-decoration: none;
 }
 
 .buscar-button:hover {

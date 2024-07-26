@@ -18,7 +18,6 @@ export function Header(){
                 Consultar
               </Link>
             </span>
-            <span>Alterar</span>
             <span>Relatórios</span>
           </div>
         </header>
