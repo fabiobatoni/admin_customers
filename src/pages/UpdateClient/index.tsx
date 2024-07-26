@@ -4,6 +4,7 @@ import './styles.css';
 import { toast } from 'sonner';
 
 export function UpdateClient() {
+  
   const [formData, setFormData] = useState({
     nome: 'Andre Luis de Andrade',
     observacao: 'Aposentado por idade',
@@ -28,7 +29,7 @@ export function UpdateClient() {
     });
   }
 
-  function handleCreateClient() {
+  function handleUpdateClient() {
     toast('Cliente Alterado com sucesso');
   }
 
@@ -150,7 +151,7 @@ export function UpdateClient() {
             </div>
           </div>
         </form>
-        <button type="submit" className="submit-button" onClick={handleCreateClient}>
+        <button type="submit" className="submit-button" onClick={handleUpdateClient}>
           Alterar
         </button>
       </div>
